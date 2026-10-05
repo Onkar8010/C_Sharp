@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{984795EE-ABEA-4CFD-B39F-574057066BB0}</ProjectGuid>
+    <ProjectGuid>{5E2AB3A5-0489-459D-BA14-AB5B58F848E1}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>EmployeManagement</RootNamespace>
-    <AssemblyName>EmployeManagement</AssemblyName>
+    <RootNamespace>Static_class</RootNamespace>
+    <AssemblyName>Static_class</AssemblyName>
     <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,7 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Employee.cs" />
+    <Compile Include="Logger.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

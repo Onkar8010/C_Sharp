@@ -8,5 +8,11 @@ namespace EmployeManagement
 {
     internal class Employee
     {
+        public void Details(string name)
+        {
+            Console.WriteLine($"Employee Name:"+ name);
+
+        }
+         public
     }
 }
