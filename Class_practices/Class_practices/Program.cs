@@ -15,6 +15,7 @@ namespace Class_practices
 
             obj.StudentName("Onkar");
             obj.StudentLastName("Patil");
+            obj.StudentGender("Male");
             obj.StudentAge(22);
             obj.StudentMark(35);
             obj.StudentResult(35);

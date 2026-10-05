@@ -19,6 +19,10 @@ namespace Class_practices
            Console.WriteLine("student last name " + lastName);
 
         }
+        public void StudentGender(string gender)
+        {
+            Console.WriteLine("student gender " + gender);
+        }
         public void StudentAge(int age)
         {
             Console.WriteLine("student age " + age);
