@@ -6,10 +6,14 @@ using System.Threading.Tasks;
 
 namespace Example_of_Logger
 {
-    internal class Program
+    internal static class Program
     {
         static void Main(string[] args)
         {
+            Student.info("This is an info message.");
+            Student.warning("This is a warning message.");
+            Student.error("This is an error message.");
+
         }
     }
 }
