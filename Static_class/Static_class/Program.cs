@@ -12,7 +12,7 @@ namespace Static_class
         {
           //  Logger Logger = new Logger();
             Logger.information("Start a new method.");
-            int result =10 + 10;
+           
             Console.WriteLine("The result is {result}");
             Logger.information("The result is {result}");
             Console.ReadLine();

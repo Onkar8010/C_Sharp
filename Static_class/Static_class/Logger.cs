@@ -11,15 +11,21 @@ namespace Static_class
         public static void information(string message)
         {
             Console.WriteLine($"[INFO] {message}");
+
         }
+
 
         public  static void warning(string message)
         {
+
             Console.WriteLine($"[WARNING] {message}");
+
         }
-        public  static void error(string message)
+
+        public static void error(string message)
         {
             Console.WriteLine($"[ERROR] {message}");
         }
     }
+
 }
