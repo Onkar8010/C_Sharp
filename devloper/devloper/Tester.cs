@@ -8,5 +8,9 @@ namespace devloper
 {
     internal class Tester
     {
+        public static void TesterName(string name)
+        {
+            Console.WriteLine("Tester Name:" + name);
+        }
     }
 }

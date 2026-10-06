@@ -4,14 +4,14 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace devloper
+namespace Abstract_class
 {
     internal class Program
     {
         static void Main(string[] args)
         {
-            Devloper.DeveloperName("Devang");
-            Tester.TesterName("Omkar");
+             Student obj = new Student();
+            obj.TeacherName();
         }
     }
 }

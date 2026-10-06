@@ -8,5 +8,12 @@ namespace devloper
 {
     internal class Devloper
     {
+
+        public static void DeveloperName(string name) 
+        {
+          Console.WriteLine($"Developer Name:" +name);
+
+        }
+
     }
 }
