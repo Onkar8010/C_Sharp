@@ -42,7 +42,7 @@ namespace Switch_Case
                     Console.WriteLine("Invalid day number. Please enter a number between 1 and 7.");
                     break;
 
-                    Console.ReadLine();
+                   
             }
 
         }
