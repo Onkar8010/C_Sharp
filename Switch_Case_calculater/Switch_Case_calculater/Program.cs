@@ -18,8 +18,9 @@ namespace Switch_Case_calculater
 
 
             Console.WriteLine("Enter an operator (+, -, *, /) ");
+            string operation = Console.ReadLine();
 
-            switch(Console.ReadLine())
+            switch (operation)
             {
                 case "+":
                     Console.WriteLine($"Result: {firstNumber + secondNumber}");
