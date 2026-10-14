@@ -33,8 +33,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="PriceManagement1">
-      <HintPath>C:\Users\thomb\OneDrive\Desktop\dll\New folder\PriceManagement1.dll</HintPath>
+    <Reference Include="PriceManagement1, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Users\thomb\OneDrive\Desktop\OM\dll\New folder\PriceManagement1.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
