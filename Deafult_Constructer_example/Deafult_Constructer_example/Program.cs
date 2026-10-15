@@ -10,9 +10,13 @@ namespace Deafult_Constructer_example
     {
         static void Main(string[] args)
         {
-           // Student obj = new Student();
-            Student obj1 = new Student();
+            Student obj = new Student(); // deafault constructor is called automatically when we create an object of the class.\
+
+            Student obj1 = new Student(); // parametrised constructor is called automatically when we create an object of the class.
+
             obj1.Student1("OM", 20);
+
+           
         }
     }
 }
