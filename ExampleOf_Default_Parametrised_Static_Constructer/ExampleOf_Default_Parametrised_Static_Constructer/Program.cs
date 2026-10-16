@@ -10,10 +10,10 @@ namespace ExampleOf_Default_Parametrised_Static_Constructer
     {
         static void Main(string[] args)
         {
-           // Bank obj = new Bank();                 //default constructor
+            Bank obj = new Bank();                 //default constructor
 
-           // Bank obj1 = new Bank();                    //parametrised constructor
-           // obj1.Bank1("Baroda Bank", "Pune", 12345);
+            Bank obj1 = new Bank();                    //parametrised constructor
+            obj1.Bank1("Baroda Bank", "Pune", 12345);
 
             
             //Static constructor

@@ -9,7 +9,7 @@ namespace ExampleOf_Default_Parametrised_Static_Constructer
     internal class Bank
     {
 
-        /*
+        
 
         //parametrised constructor
          public Bank()
@@ -18,11 +18,11 @@ namespace ExampleOf_Default_Parametrised_Static_Constructer
 
         }
 
-        */
+        
 
 
 
-        /*
+        
 
         //Parametrised constructor
 
@@ -32,7 +32,7 @@ namespace ExampleOf_Default_Parametrised_Static_Constructer
             Console.WriteLine("Branch: " + brabch);
             Console.WriteLine("AccountNo: "+ AccountNo);
         }
-        */
+        
 
 
 
@@ -53,6 +53,7 @@ namespace ExampleOf_Default_Parametrised_Static_Constructer
         {
             Console.WriteLine("Account No: 1234567890");
         }
+         
 
 
 
