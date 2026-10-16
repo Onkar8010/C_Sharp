@@ -6,7 +6,24 @@ using System.Threading.Tasks;
 
 namespace Private_Constructer_Example
 {
-    internal class School
+    public class School
     {
+
+        private School()
+        {
+            Console.WriteLine("Deafult const");
+        }
+
+        public int TotalRev() 
+        {
+            return 1000;
+
+        }
+
+
+
+
+
+
     }
 }

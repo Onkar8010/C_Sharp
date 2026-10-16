@@ -10,6 +10,12 @@ namespace Private_Constructer_Example
     {
         static void Main(string[] args)
         {
+            School school = new School();
+                
+            Console.WriteLine("Total Revenue OF School"+ school.TotalRev());
+
+
+
         }
     }
 }
