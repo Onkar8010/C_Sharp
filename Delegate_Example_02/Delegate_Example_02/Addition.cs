@@ -23,8 +23,10 @@ namespace Delegate_Example_02
         {
 
             MyDelegate del = new MyDelegate(Add);
+          
 
             del(10, 20);
+           
 
 
 
