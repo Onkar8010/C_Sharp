@@ -10,6 +10,7 @@ namespace Constant_Varible_Example
     {
         static void Main(string[] args)
         {
+            /*
             string name = "John Doe";
             Console.WriteLine(name) ;
 
@@ -17,6 +18,14 @@ namespace Constant_Varible_Example
             Console.WriteLine(name);
 
             Console.ReadLine();
+            */
+
+            const int InterstRate= 10;
+
+            Console.WriteLine("Current interest rate "+ InterstRate);
+
+
+           
 
 
         }
