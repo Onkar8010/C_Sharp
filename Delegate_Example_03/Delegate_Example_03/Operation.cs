@@ -42,16 +42,15 @@ namespace Delegate_Example_03
         {
 
             MyDelegate del = new MyDelegate(add);
-
             del(10, 20);
 
             del = new  MyDelegate(sub);
-
             del(30, 20);
 
 
             del = new MyDelegate(mul);
             del(58, 65);
+
 
             del = new MyDelegate(div);
             del(45,65);
