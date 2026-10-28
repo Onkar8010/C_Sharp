@@ -10,6 +10,18 @@ namespace Method_overriding_example
     {
         static void Main(string[] args)
         {
+
+            SubBank obj = new SubBank();
+
+            obj.DisplayBankName();
+            obj.DisplayCreditAmount();
+            obj.displayBalance();
+
+
+            Bank obj1 = new Bank();
+            obj.DisplayBankName();
+
+
         }
     }
 }
