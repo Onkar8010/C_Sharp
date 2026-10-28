@@ -35,6 +35,6 @@ namespace Delegate_Example_04
             del = new ShowDetails(StudentAge);
             del("onkar",34);
         }
-
+ 
     }
 }

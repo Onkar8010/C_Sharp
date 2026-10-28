@@ -13,9 +13,9 @@ namespace Event_Example_01
 
             Student student = new Student();
 
-            student.CheckResult(35);
+            student.CheckResult(50);
             student.pass += student.Display;
-            student.Display();
+           // student.Display();
 
 
         }
