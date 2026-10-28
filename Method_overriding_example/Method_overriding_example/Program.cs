@@ -18,8 +18,8 @@ namespace Method_overriding_example
             obj.displayBalance();
 
 
-            Bank obj1 = new Bank();
-            obj.DisplayBankName();
+           // Bank obj1 = new Bank();
+           // obj.DisplayBankName();
 
 
         }
