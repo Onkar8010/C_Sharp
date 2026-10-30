@@ -9,7 +9,7 @@ namespace Delegate_Example_03
     internal class Operation
     {
 
-        public delegate void MyDelegate(int a, int b);
+        public delegate void MyDel(int a, int b);
 
 
 
@@ -41,18 +41,18 @@ namespace Delegate_Example_03
         public void Display()
         {
 
-            MyDelegate del = new MyDelegate(add);
+            MyDel del = new MyDel(add);
             del(10, 20);
 
-            del = new  MyDelegate(sub);
+            del = new  MyDel(sub);
             del(30, 20);
-
-
-            del = new MyDelegate(mul);
+                        
+                        
+            del = new MyDel(mul);
             del(58, 65);
-
-
-            del = new MyDelegate(div);
+                        
+                        
+            del = new MyDel(div);
             del(45,65);
 
 
