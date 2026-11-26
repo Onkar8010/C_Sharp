@@ -1,3 +1,11 @@
+<<<<<<< HEAD
+﻿.vs/
+bin/
+obj/
+*.user
+*.suo
+=======
 .vs/ 
 bin/ 
 obj/ 
+>>>>>>> origin/main
