@@ -21,7 +21,7 @@ namespace Method_overiding_example
 
 
     }
-
+     
 
     public class mult : MethodOveriding 
     
