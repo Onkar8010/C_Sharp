@@ -9,14 +9,14 @@ namespace Abstract_Class_Real
         private string name;
         private int age;
 
-        private Calcul calcul;
+        private AbstractCal calcul;
 
         public Person()
         {
             name = "";
             age = 0;
         }
-        public Person(string name, int age, Calcul calcul)
+        public Person(string name, int age, AbstractCal calcul)
         {
             this.name = name;
             this.age = age;

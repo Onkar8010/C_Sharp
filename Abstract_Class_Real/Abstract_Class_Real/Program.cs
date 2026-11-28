@@ -6,11 +6,20 @@
         {
             Person p1;
 
-            Calcul cal = new FastCal();
+            AbstractCal cal = new FastCal();
 
             p1= new Person("Ram",23,cal);
 
             p1.RandomMethod();
+
+
+            A a = new C();
+            B b = new C();
+            C c = new C();
+
+            a.Print("Hello");
+            b.Print("Helllo");
+            c.Print("Hello");   
         }
     }
-}
+} 

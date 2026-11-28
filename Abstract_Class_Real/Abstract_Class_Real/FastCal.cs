@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Abstract_Class_Real
 {
-    internal class FastCal:Calcul
+    internal class FastCal:AbstractCal
     {
         public override int Add(int a, int b)
         {

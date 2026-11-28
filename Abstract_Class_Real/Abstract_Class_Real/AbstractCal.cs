@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Abstract_Class_Real
 {
-    public abstract  class Calcul
+    public abstract  class AbstractCal
     {
 
         public void Print(string str)
